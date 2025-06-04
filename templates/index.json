@@ -120,110 +120,105 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
-    "media-grid": {
-      "type": "media-grid",
+    "rich_text_gw4qy7": {
+      "type": "rich-text",
       "blocks": {
-        "item-1": {
-          "type": "image",
+        "subheading_UxMCmt": {
+          "type": "subheading",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "text": ""
           }
         },
-        "item-2": {
-          "type": "image",
+        "heading_DjVEy3": {
+          "type": "heading",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "text": "Nos clients en parlent mieux",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
           }
         },
-        "item-3": {
-          "type": "image",
+        "richtext_dFdhVY": {
+          "type": "richtext",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "29246d34-c6e0-4373-84f6-b15e57736a00": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "content": ""
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "29246d34-c6e0-4373-84f6-b15e57736a00"
+        "subheading_UxMCmt",
+        "heading_DjVEy3",
+        "richtext_dFdhVY"
       ],
+      "custom_css": [],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
-        "background_gradient": ""
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_kPd7Rb": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_rDMmnH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/TEST_48.png",
+            "image_rotation_degrees": -15,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Hélène T. <em>Cliente Vérifiée</em></p><p>⭐⭐⭐⭐⭐</p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_DXPmPb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/TEST_47.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_mgUywy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Kaching-Bundles-Kaching-Bundles-TEST_44.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_rDMmnH",
+        "item_DXPmPb",
+        "item_mgUywy"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": false,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "before-after-image": {
@@ -233,6 +228,10 @@
         "subheading": "",
         "title": "Before/after",
         "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "before_image": "shopify://shop_images/TEST_48.png",
+        "before_image_mobile": "shopify://shop_images/TEST_48.png",
+        "after_image": "shopify://shop_images/TEST_47.png",
+        "after_image_mobile": "shopify://shop_images/TEST_47.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "bottom",
@@ -248,93 +247,12 @@
         "drag_cursor_color": "#000000"
       }
     },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Share info about what your customers say about your products.",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Or share content about your promotion, offers...",
-            "show_rating": false,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "hot-spots": {
       "type": "hot-spots",
-      "blocks": {
-        "1664424434f5b7d0e0-0": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
-        "1664424434f5b7d0e0-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
-        "1664424434f5b7d0e0-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424434f5b7d0e0-0",
-        "1664424434f5b7d0e0-1",
-        "1664424434f5b7d0e0-2"
-      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
+        "image": "shopify://shop_images/ChatGPT_Image_12_avr._2025_17_06_50.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_12_avr._2025_17_06_50.png",
         "title": "",
         "content": "",
         "button_text": "",
@@ -665,9 +583,9 @@
     "slideshow",
     "logo_list_ChbEK8",
     "image-with-text-overlay",
-    "media-grid",
+    "rich_text_gw4qy7",
+    "multiple_images_with_text_kPd7Rb",
     "before-after-image",
-    "press",
     "hot-spots",
     "multiple-images-with-text",
     "featured-product",
