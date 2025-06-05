@@ -260,8 +260,15 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "kaching_bundles_app_block_8xbHji": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "buy-buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
@@ -290,6 +297,7 @@
         "description",
         "variant-picker",
         "quantity-selector",
+        "kaching_bundles_app_block_8xbHji",
         "buy-buttons",
         "collapsible_text_QnFDBh"
       ],
@@ -309,32 +317,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "before_image": "shopify://shop_images/TEST_48.png",
-        "before_image_mobile": "shopify://shop_images/TEST_48.png",
-        "after_image": "shopify://shop_images/TEST_47.png",
-        "after_image_mobile": "shopify://shop_images/TEST_47.png",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
       }
     },
     "feature-chart": {
@@ -514,7 +496,6 @@
     "custom_liquid_RQPAWE",
     "hot-spots",
     "featured-product",
-    "before-after-image",
     "feature-chart",
     "faq"
   ]
