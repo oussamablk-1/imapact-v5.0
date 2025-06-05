@@ -158,7 +158,7 @@
       "custom_css": [],
       "name": "Rich text",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "content_width": "small",
         "text_position": "center",
         "background": "",
@@ -173,67 +173,10 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .custom-reviews-slider {\n    overflow-x: auto;\n    display: flex;\n    scroll-snap-type: x mandatory;\n    -webkit-overflow-scrolling: touch;\n    gap: 16px;\n    padding: 20px 0;\n    margin: 40px 0;\n  }\n\n  .custom-review-card {\n    scroll-snap-align: center;\n    flex: 0 0 85%;\n    max-width: 300px;\n    background: #fff;\n    border-radius: 16px;\n    padding: 20px;\n    box-shadow: 0 4px 14px rgba(0,0,0,0.08);\n    font-family: sans-serif;\n  }\n\n  .custom-review-card img {\n    width: 100%;\n    border-radius: 12px;\n    margin-bottom: 12px;\n  }\n\n  .custom-review-name {\n    font-weight: bold;\n    font-size: 16px;\n  }\n\n  .custom-review-meta {\n    color: #777;\n    font-size: 14px;\n    margin-bottom: 6px;\n  }\n\n  .custom-review-stars {\n    color: #ffc107;\n    font-size: 18px;\n    margin-bottom: 8px;\n  }\n\n  .custom-review-text {\n    font-size: 15px;\n    line-height: 1.5;\n    color: #333;\n  }\n\n  /* Hide scrollbar */\n  .custom-reviews-slider::-webkit-scrollbar {\n    display: none;\n  }\n  .custom-reviews-slider {\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n  }\n</style>\n\n<div class=\"custom-reviews-slider\">\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Avis Virginie\">\n    <div class=\"custom-review-name\">Virginie E.</div>\n    <div class=\"custom-review-meta\">Cliente vérifiée ✓</div>\n    <div class=\"custom-review-text\">\n      J'ai une peau très sensible et j'ai toujours eu du mal à trouver une crème qui ne provoque pas de réactions. Instant Lift+ est parfaite, elle hydrate bien sans irriter ma peau. Mes poches et cernes sont également beaucoup moins visibles.\n    </div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ 'e30ca745-60cb-459d-9a97-c101ef5ce95e.png' | file_url }}\" alt=\"Avis Hélène\">\n    <div class=\"custom-review-name\">Hélène T.</div>\n    <div class=\"custom-review-meta\">Cliente vérifiée ✓</div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-text\">\n      J'ai essayé de nombreuses crèmes pour mes poches sous les yeux, mais Instant Lift+ est la seule qui a vraiment fait une différence. Mes cernes sont nettement réduites et mon regard est beaucoup plus lumineux. Je recommande vivement !\n    </div>\n  </div>\n\n  <!-- Ajoute d'autres cartes ici si besoin -->\n</div>",
+        "liquid": "<style>\n  .custom-reviews-container {\n    margin-bottom: 10px;\n  }\n\n  .custom-reviews-container h4 {\n    font-size: 20px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    font-family: sans-serif;\n  }\n\n  .custom-reviews-slider {\n    overflow-x: auto;\n    display: flex;\n    scroll-snap-type: x mandatory;\n    -webkit-overflow-scrolling: touch;\n    gap: 16px;\n    padding: 20px 0 0;\n  }\n\n  .custom-review-card {\n    scroll-snap-align: center;\n    flex: 0 0 85%;\n    min-width: 280px;\n    max-width: 320px;\n    flex-shrink: 0;\n    background: #fff;\n    border-radius: 16px;\n    padding: 20px;\n    box-shadow: 0 4px 14px rgba(0,0,0,0.08);\n    font-family: sans-serif;\n    display: flex;\n    flex-direction: column;\n  }\n\n  .custom-review-card img {\n    width: 100%;\n    border-radius: 12px;\n    margin-bottom: 12px;\n  }\n\n  .custom-review-header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    font-weight: bold;\n    font-size: 16px;\n    margin-bottom: 4px;\n  }\n\n  .custom-review-meta {\n    font-size: 14px;\n    color: #666;\n    font-weight: normal;\n  }\n\n  .custom-review-stars {\n    color: #000;\n    font-size: 16px;\n    margin: 4px 0;\n  }\n\n  .custom-review-title {\n    font-weight: bold;\n    font-size: 15px;\n    margin: 6px 0 4px 0;\n    color: #111;\n  }\n\n  .custom-review-text {\n    font-size: 15px;\n    line-height: 1.5;\n    color: #333;\n    white-space: normal;\n  }\n\n  .custom-reviews-slider::-webkit-scrollbar {\n    display: none;\n  }\n\n  .custom-reviews-slider {\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n  }\n</style>\n\n<div class=\"custom-reviews-container\">\n  <h4>Nos clients en parlent mieux :</h4>\n<div class=\"custom-reviews-slider\">\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Julie C.\">\n    <div class=\"custom-review-header\">\n      <span>Julie C.</span>\n      <span class=\"custom-review-meta\">Cliente vérifiée ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“J’ai peur que ça fasse mal ou que ce soit inconfortable.”</div>\n    <div class=\"custom-review-text\">Franchement je pensais pareil, mais au final on le sent à peine une fois bien placé. C’est comme un petit soutien discret, et au bout de 5 min j’oublie que je le porte.</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Sarah M.\">\n    <div class=\"custom-review-header\">\n      <span>Sarah M.</span>\n      <span class=\"custom-review-meta\">Cliente vérifiée ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“Et si ça se voit ? J’ai peur qu’on remarque quelque chose.”</div>\n    <div class=\"custom-review-text\">Je l’ai porté au taf toute la journée, personne n’a capté. Même mon copain ne s’est rendu compte de rien jusqu’à ce que je lui dise !</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Élodie F.\">\n    <div class=\"custom-review-header\">\n      <span>Élodie F.</span>\n      <span class=\"custom-review-meta\">Cliente vérifiée ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“Ça marche vraiment ou c’est juste un gadget ?”</div>\n    <div class=\"custom-review-text\">J’étais sceptique mais j’ai vu la diff dès la première fois. Mon nez paraît clairement plus droit et moins épaté sur les photos, surtout de profil. Le avant/après est fou.</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Lucas R.\">\n    <div class=\"custom-review-header\">\n      <span>Lucas R.</span>\n      <span class=\"custom-review-meta\">Client vérifié ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“Est-ce que c’est gênant pour respirer ?”</div>\n    <div class=\"custom-review-text\">Non pas du tout, ça passe bien dans le nez et ça laisse l’air circuler. J’ai même oublié que je le portais en marchant dehors.</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Nina B.\">\n    <div class=\"custom-review-header\">\n      <span>Nina B.</span>\n      <span class=\"custom-review-meta\">Cliente vérifiée ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“C’est adapté à tous les nez ?”</div>\n    <div class=\"custom-review-text\">J’avais peur que ça n’aille pas avec mon nez un peu large, mais il y a plusieurs tailles et formes dans la boîte. J’ai trouvé celle qui me convenait parfaitement.</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Camille V.\">\n    <div class=\"custom-review-header\">\n      <span>Camille V.</span>\n      <span class=\"custom-review-meta\">Cliente vérifiée ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“Est-ce que ça reste en place longtemps ?”</div>\n    <div class=\"custom-review-text\">Je l’ai mis le matin et je l’ai enlevé en fin d’aprèm, aucun souci. Ça tient bien si tu le positionnes correctement au début.</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Sophie D.\">\n    <div class=\"custom-review-header\">\n      <span>Sophie D.</span>\n      <span class=\"custom-review-meta\">Cliente vérifiée ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“C’est vraiment mieux qu’un contouring ou une astuce maquillage ?”</div>\n    <div class=\"custom-review-text\">Oui ! Avec le make-up tu caches, là tu structures. Ça change tout pour le profil, et t’as pas besoin de retouche ou de lumière flatteuse.</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Thomas L.\">\n    <div class=\"custom-review-header\">\n      <span>Thomas L.</span>\n      <span class=\"custom-review-meta\">Client vérifié ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“Je fais beaucoup de sport, c’est compatible ?”</div>\n    <div class=\"custom-review-text\">Je l’ai testé à la salle et même en transpirant un peu, aucun souci. Ça bouge pas et c’est discret, donc nickel.</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Emma R.\">\n    <div class=\"custom-review-header\">\n      <span>Emma R.</span>\n      <span class=\"custom-review-meta\">Cliente vérifiée ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“Et si je le perds ? C’est petit quand même.”</div>\n    <div class=\"custom-review-text\">Je pensais pareil, mais la boîte est bien pensée. Je les range dedans direct après usage. Et comme t’as plusieurs paires, t’as de la marge.</div>\n  </div>\n\n  <div class=\"custom-review-card\">\n    <img src=\"{{ '510afe39-a4c7-4f74-9cc8-97cf85172506.png' | file_url }}\" alt=\"Julien P.\">\n    <div class=\"custom-review-header\">\n      <span>Julien P.</span>\n      <span class=\"custom-review-meta\">Client vérifié ✓</span>\n    </div>\n    <div class=\"custom-review-stars\">★★★★★</div>\n    <div class=\"custom-review-title\">“Est-ce que ça change vraiment quelque chose dans la vie ?”</div>\n    <div class=\"custom-review-text\">Ça paraît rien mais ça booste grave la confiance. Je me sens mieux sur les selfies, plus à l’aise face aux gens. C’est pas une révolution, mais ça fait du bien.</div>\n  </div>\n\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "multiple_images_with_text_kPd7Rb": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_rDMmnH": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/TEST_48.png",
-            "image_rotation_degrees": -15,
-            "subheading": "\"J’ai peur que ça fasse mal ou que ce soit inconfortable\"",
-            "title": "",
-            "content": "<p>Hélène T. <em>Cliente Vérifiée</em></p><p>✮✮✮✮✮<br/>Franchement je pensais pareil, mais au final on le sent à peine une fois bien placé. C’est comme un petit soutien discret, et au bout de 5 min j’oublie que je le porte.<br/></p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_DXPmPb": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/TEST_47.png",
-            "image_rotation_degrees": 1.5,
-            "subheading": "\"Et si ça se voit ? J’ai peur qu’on remarque quelque chose.\"",
-            "title": "",
-            "content": "<p>Hélène T. <em>Cliente Vérifiée</em></p><p>✮✮✮✮✮<br/>Je l’ai porté au taf toute la journée, personne n’a capté. Même mon copain ne s’est rendu compte de rien jusqu’à ce que je lui dise !</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_mgUywy": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Kaching-Bundles-Kaching-Bundles-TEST_44.png",
-            "image_rotation_degrees": 0,
-            "subheading": "\"Ça marche vraiment ou c’est juste un gadget ?\"",
-            "title": "",
-            "content": "<p>Hélène T. <em>Cliente Vérifiée</em></p><p>✮✮✮✮✮<br/>J’étais sceptique mais j’ai vu la diff dès la première fois. Mon nez paraît clairement plus droit et moins épaté sur les photos, surtout de profil. Le avant/après est fou.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_rDMmnH",
-        "item_DXPmPb",
-        "item_mgUywy"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": false,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "hot-spots": {
@@ -352,7 +295,7 @@
       ],
       "settings": {
         "full_width": false,
-        "product": "serum-eclat-niacinamide-10-txa-4",
+        "product": "lift-love-redessine-le-nez",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "contained",
@@ -569,7 +512,6 @@
     "image-with-text-overlay",
     "rich_text_gw4qy7",
     "custom_liquid_RQPAWE",
-    "multiple_images_with_text_kPd7Rb",
     "hot-spots",
     "featured-product",
     "before-after-image",
