@@ -21,7 +21,7 @@
             "subheading": "Tell your story",
             "title": "Slide title",
             "heading_tag": "h0",
-            "button_text": "",
+            "button_text": "Acheter Maintenant",
             "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -46,85 +46,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
-    "collapsible_content_kytYKr": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_qyYDwX": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_box",
-            "filled_icon": false,
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_jUhEKG": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_box",
-            "filled_icon": false,
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_NRiGNb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_box",
-            "filled_icon": false,
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_UjpqAF": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_box",
-            "filled_icon": false,
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_qyYDwX",
-        "collapsible_row_jUhEKG",
-        "collapsible_row_NRiGNb",
-        "collapsible_row_UjpqAF"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "caption": "",
-        "title": "Collapsible content",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "video_muted_autoplay": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "row_heading_size": "medium",
-        "collapse_icon": "carret",
-        "display_top_border": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_contaner_colors_background": "#ffffff",
-        "custom_container_gradient_background": "",
-        "custom_contaner_colors_text": "#2e2a39"
       }
     },
     "logo_list_ChbEK8": {
@@ -253,7 +174,7 @@
             "image_rotation_degrees": -15,
             "subheading": "",
             "title": "",
-            "content": "<p>Hélène T. <em>Cliente Vérifiée</em></p><p>⭐⭐⭐⭐⭐</p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "content": "<p>Hélène T. <em>Cliente Vérifiée</em></p><p>✮✮✮✮✮</p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "button_url": "",
             "button_text": ""
           }
@@ -416,11 +337,11 @@
       ],
       "settings": {
         "full_width": false,
-        "product": "",
+        "product": "serum-eclat-niacinamide-10-txa-4",
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": true,
@@ -629,7 +550,6 @@
   },
   "order": [
     "slideshow",
-    "collapsible_content_kytYKr",
     "logo_list_ChbEK8",
     "image-with-text-overlay",
     "rich_text_gw4qy7",
