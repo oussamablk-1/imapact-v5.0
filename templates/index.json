@@ -48,6 +48,85 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "collapsible_content_kytYKr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qyYDwX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_jUhEKG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_NRiGNb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_UjpqAF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qyYDwX",
+        "collapsible_row_jUhEKG",
+        "collapsible_row_NRiGNb",
+        "collapsible_row_UjpqAF"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "Collapsible content",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_contaner_colors_background": "#FFFFFF",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2E2A39"
+      }
+    },
     "logo_list_ChbEK8": {
       "type": "logo-list",
       "blocks": {
@@ -221,32 +300,6 @@
         "button_text_color": ""
       }
     },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "before_image": "shopify://shop_images/TEST_48.png",
-        "before_image_mobile": "shopify://shop_images/TEST_48.png",
-        "after_image": "shopify://shop_images/TEST_47.png",
-        "after_image_mobile": "shopify://shop_images/TEST_47.png",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "hot-spots": {
       "type": "hot-spots",
       "disabled": true,
@@ -368,6 +421,32 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "before-after-image": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "before_image": "shopify://shop_images/TEST_48.png",
+        "before_image_mobile": "shopify://shop_images/TEST_48.png",
+        "after_image": "shopify://shop_images/TEST_47.png",
+        "after_image_mobile": "shopify://shop_images/TEST_47.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     },
     "feature-chart": {
@@ -541,6 +620,7 @@
   },
   "order": [
     "slideshow",
+    "collapsible_content_kytYKr",
     "logo_list_ChbEK8",
     "image-with-text-overlay",
     "rich_text_gw4qy7",
