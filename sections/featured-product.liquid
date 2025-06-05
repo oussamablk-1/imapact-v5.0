@@ -39,7 +39,7 @@
   }
 </style>
 
-<div {% render 'section-properties', tight: true %}>
+<div id="featured-product-section" {% render 'section-properties', tight: true %}>
   <div class="product">
     {%- if section.settings.product != blank -%}
       {%- if section.settings.product.media.size > 0 -%}
